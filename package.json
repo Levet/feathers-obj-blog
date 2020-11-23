@@ -1,0 +1,28 @@
+{
+  "name": "feathers-obj-blog",
+  "version": "1.0.0",
+  "description": "Blog Using Feathers, Objection, Postgres.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levet/feathers-obj-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levet/feathers-obj-blog/issues"
+  },
+  "homepage": "https://github.com/Levet/feathers-obj-blog#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.10",
+    "@feathersjs/feathers": "^4.5.10",
+    "@feathersjs/socketio": "^4.5.10",
+    "knex": "^0.21.12",
+    "objection": "^2.2.3",
+    "pg": "^8.5.1"
+  }
+}
