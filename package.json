@@ -16,6 +16,19 @@
   "bugs": {
     "url": "https://github.com/Levet/feathers-obj-blog/issues"
   },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "oof",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
   "homepage": "https://github.com/Levet/feathers-obj-blog#readme",
   "dependencies": {
     "@feathersjs/express": "^4.5.10",
@@ -24,6 +37,7 @@
     "dotenv": "^8.2.0",
     "knex": "^0.21.12",
     "objection": "^2.2.3",
+    "oclif": "^1.16.1",
     "pg": "^8.5.1"
   }
 }

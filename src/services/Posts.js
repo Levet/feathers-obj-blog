@@ -6,6 +6,9 @@ class PostsService {
 		return Posts.query().insert(data);
 	}
 
+	fetch(params){
+		return Posts.query().select(params)
+	}
 }
 
 module.exports = PostsService;
