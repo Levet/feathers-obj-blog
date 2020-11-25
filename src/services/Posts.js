@@ -3,6 +3,7 @@ const Posts = require("../models/Posts");
 class PostsService {
 
 	create(data){
+		console.log(data)
 		return Posts.query().insert(data);
 	}
 

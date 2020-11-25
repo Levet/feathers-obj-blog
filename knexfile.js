@@ -2,8 +2,6 @@
 
 require("dotenv").config()
 
-console.log(process.env.LOCAL_DB, process.env.LOCAL_DB_USER, process.env.LOCAL_DB_PASSWORD)
-
 module.exports = {
 
   development: {
