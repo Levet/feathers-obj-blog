@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/Levet/feathers-obj-blog#readme",
   "dependencies": {
+    "@feathersjs/configuration": "^4.5.10",
     "@feathersjs/express": "^4.5.10",
     "@feathersjs/feathers": "^4.5.10",
     "@feathersjs/socketio": "^4.5.10",
@@ -42,12 +43,12 @@
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
     "feathers-hooks-common": "^5.0.4",
+    "feathers-knex": "^7.1.1",
     "feathers-vuex": "^3.14.0",
     "knex": "^0.21.12",
     "objection": "^2.2.3",
     "oclif": "^1.16.1",
     "pg": "^8.5.1",
-    "socket.io-client": "^3.0.3",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"

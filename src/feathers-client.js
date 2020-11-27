@@ -18,15 +18,17 @@
 // 	title: "Apple"
 // })
 
+
 import feathers from '@feathersjs/feathers';
 import socketio from "@feathersjs/socketio-client";
-import io from 'socket.io-client';
 import { iff, discard } from 'feathers-hooks-common';
 import feathersVuex from 'feathers-vuex';
 
 const socket = io();
 
-const feathersClient = feathers()
+const feathersClient = feathers();
+
+feathersClient
 	.configure(socketio(socket))
 	// .hooks({
 	// 	before: {
@@ -51,7 +53,9 @@ setTimeout(async function(){
 	try {
 
 		await feathersClient.service('posts').create({
-			title: "AppleSauce"
+      id: 187,
+			title: "AppleSauce",
+      created_at: new Date()
 		})
 
 	} catch(err){
